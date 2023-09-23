@@ -1,0 +1,212 @@
+body {
+    font-family: 'Roboto', 'Verdana', sans-serif;
+    color: #2E2F42;
+    background-color: #FFF;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+
+/* =========================HEADER==========================*/
+.header {}
+
+.header-nav {
+}
+
+.logo { 
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;     
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+        
+}
+
+.accent {
+    color: #2E2F42;
+}
+
+
+.header-menu-item {
+}
+ 
+.header-menu-item-link:hover ,
+.header-menu-item-link:focus {
+    color:#404BBF;
+}
+
+.header-menu-item-link {     
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+
+.header-adress {
+    color: #434455;    
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5;    
+    letter-spacing: 0.02em;
+}
+
+.header-adress-list {}
+
+.header-adress-item {}
+
+.header-adress-item-link {
+    color: inherit; 
+    font-style: normal;
+}
+
+.header-adress-item-link:hover ,
+.header-adress-item-link:focus {
+    color: #404BBF;
+}
+
+/*=====================================================*/
+/* ====================MAIN-PART========================*/
+
+ .main-part {
+    background-color: #2E2F42;
+    text-align: center;
+ }
+ .main-part-title {
+    color:#FFF;      
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;        
+    letter-spacing: 0.02em;
+ }
+
+.main-title-button {
+    color: #FFF;
+    background-color:#4D5AE5;
+   }
+
+.main-title-button:focus {
+    background-color: #404BBF;
+}
+
+ 
+
+/* ============================================================*/
+/* =========================ADVANTAGES=========================*/
+
+
+.advantages {}
+
+.advantages-main-title {
+    display: none;
+}
+
+.list-advantages {}
+
+.list-advantages-item {}
+
+.advantages-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.advantages-text {
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* =============================================================*/
+/* ===================================TEAM=======================*/
+
+.team {
+  background-color:#F4F4FD;
+}
+
+.section-team-title {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.team-list {}
+
+.team-list-item {
+
+}
+
+.team-name-title {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.2em;
+}
+
+.team-occupation-text {
+    color: var(--SLATE, #434455);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/* ============================================================*/
+/* =========================PORTFOLIO==========================*/
+
+.portfolio {}
+
+.section-portfolio-title {
+    font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-item-title {
+    font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.portfolio-item-text {}
+
+/* ===============================================================*/
+/* ============================FOOTER==============================*/
+.footer {
+    background-color: #2E2F42;
+}
+
+.footerlogo {
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.accent {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    color: #F4F4FD;
+}
