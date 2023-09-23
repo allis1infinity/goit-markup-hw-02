@@ -17,7 +17,7 @@ li {
 .header-nav {
 }
 
-.logo { 
+.headerlogo { 
     color: #4D5AE5;
     font-family: Raleway;
     font-size: 18px;     
@@ -28,7 +28,7 @@ li {
         
 }
 
-.accent {
+.headeraccent {
     color: #2E2F42;
 }
 
