@@ -1,6 +1,6 @@
 body {
-    font-family: 'Roboto', 'Verdana', sans-serif;
-    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
     background-color: #FFF;
 }
 a {
@@ -19,7 +19,7 @@ li {
 
 .headerlogo { 
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;     
     font-weight: 700;
     line-height: 1.17;
@@ -41,7 +41,8 @@ li {
     color:#404BBF;
 }
 
-.header-menu-item-link {     
+.header-menu-item-link {
+    color: #2E2F42;     
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -50,9 +51,8 @@ li {
 
 
 
-.header-adress {
-    color: #434455;    
-    font-family: Roboto;
+.header-adress { 
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;    
     letter-spacing: 0.02em;
@@ -64,7 +64,7 @@ li {
 
 .header-adress-item-link {
     color: inherit; 
-    font-style: normal;
+    
 }
 
 .header-adress-item-link:hover ,
@@ -88,10 +88,18 @@ li {
  }
 
 .main-title-button {
+    font-family: 'Roboto', sans-serif;
     color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color:#4D5AE5;
-   }
+    cursor: pointer;
+}
 
+   
+.main-title-button:hover,
 .main-title-button:focus {
     background-color: #404BBF;
 }
@@ -105,7 +113,7 @@ li {
 .advantages {}
 
 .advantages-main-title {
-    display: none;
+    visibility: hidden;
 }
 
 .list-advantages {}
@@ -113,6 +121,7 @@ li {
 .list-advantages-item {}
 
 .advantages-title {
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -120,7 +129,6 @@ li {
 }
 
 .advantages-text {
-    color: var(--SLATE, #434455);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -134,28 +142,30 @@ li {
 }
 
 .section-team-title {
+    color: #2E2F42;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
+        text-align: center;
         text-transform: capitalize;
 }
 
 .team-list {}
 
 .team-list-item {
-
+    background-color: #FFFFFF;
 }
 
 .team-name-title {
+    color: #2E2F42;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
-        letter-spacing: 0.2em;
+        letter-spacing: 0.02em;
 }
 
 .team-occupation-text {
-    color: var(--SLATE, #434455);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -167,10 +177,12 @@ li {
 .portfolio {}
 
 .section-portfolio-title {
+    color: #2E2F42;
     font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
+        text-align: center;
         text-transform: capitalize;
 }
 
@@ -179,13 +191,19 @@ li {
 .portfolio-item {}
 
 .portfolio-item-title {
+    color: #2E2F42;
     font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
 }
 
-.portfolio-item-text {}
+.portfolio-item-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
 
 /* ===============================================================*/
 /* ============================FOOTER==============================*/
@@ -195,11 +213,11 @@ li {
 
 .footerlogo {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
 }
 
@@ -209,4 +227,6 @@ li {
 
 .footer-text {
     color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
